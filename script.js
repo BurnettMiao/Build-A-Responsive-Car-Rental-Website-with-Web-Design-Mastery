@@ -39,3 +39,8 @@ ScrollReveal().reveal('.header__links', {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+ScrollReveal().reveal('.steps__card', {
+  ...scrollRevealOption,
+  interval: 500,
+});
